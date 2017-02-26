@@ -24,5 +24,8 @@
     "mocha": "^3.2.0",
     "sinon": "^2.0.0-pre.5",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "d3": "^4.6.0"
   }
 }
