@@ -1,3 +1,4 @@
-import { sayHello } from './say/hello.js'
+import { sayHello, sayHelloConsole } from './say/hello.js'
 
 sayHello()
+sayHelloConsole()
