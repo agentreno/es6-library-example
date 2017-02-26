@@ -1,4 +1,4 @@
 export function sayHello() {
-    let message = 'world';
+    let message = 'world'
     console.log(`Hello ${message}`)
 }
