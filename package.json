@@ -4,11 +4,15 @@
   "description": "An example of structuring a library with ES6, Webpack and Babel",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Karl Hopkinson-Turrell",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-latest": "^6.22.0",
     "webpack": "^2.2.1"
   }
 }
