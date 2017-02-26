@@ -1,0 +1,11 @@
+{
+  "name": "es6-library-example",
+  "version": "1.0.0",
+  "description": "An example of structuring a library with ES6, Webpack and Babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karl Hopkinson-Turrell",
+  "license": "ISC"
+}
