@@ -34,7 +34,8 @@ module.exports = function(config) {
     },
 
 
-    webpack: webpackConfig,
+    // Webpack config, run tests on production bundle
+    webpack: webpackConfig({ production: true }),
 
 
     webpackMiddleware: {
