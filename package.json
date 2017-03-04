@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "build:broken": "webpack --config broken.webpack.config.js",
-    "test": "karma start",
-    "test:broken": "karma start broken.karma.conf.js"
+    "test": "karma start"
   },
   "author": "Karl Hopkinson-Turrell",
   "license": "ISC",
