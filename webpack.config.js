@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = function(env) {
     var commonConfig = {
@@ -18,10 +19,18 @@ module.exports = function(env) {
                     options: {
                         presets: ['latest']
                     }
+                },
+                {
+                    test: /\.css$/,
+                    use: ExtractTextPlugin.extract({
+                        use: 'css-loader'
+                    })
                 }
             ]
         },
-        plugins: []
+        plugins: [
+            new ExtractTextPlugin('styles.css')
+        ]
     }
 
     if (env && env.production) {

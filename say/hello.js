@@ -1,3 +1,5 @@
+import './hello.css'
+
 export function sayHelloConsole() {
     let message = 'world'
     console.log(`Hello ${message}`)
